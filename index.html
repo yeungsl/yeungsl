@@ -1,41 +1,32 @@
 
 <head>
-<style>
-table, th, td{
-	border: 1px solid black;
-	border-collapse: collapse;
-}
-th{
-	text-align: left;
-}
-</style>
+	<style>
+		table, th, td{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		th{
+			text-align: left;
+		}
+	</style>
+	<script type="text/javascript" src="cells.js"></script>
 </head>
 <body>
 	<h1> Hello World!!</h1>
 	<table style="width:100%" id="t">
 		<tr>
 			<th>Name</th>
-			<th>Position</th>
 			<th>Scores</th>
 		</tr>
-		<tr>
-			<td>Jill</td>
-			<td>Smith</td>
-			<td>50</td>
-		</tr>
-		<tr>
-			<td>Eve</td>
-			<td>Jackson</td>
-			<td>94</td>
-		</tr>
-		<tr>
-			<td>John</td>
-			<td>Doe</td>
-			<td>80</td>
-		</tr>
 	</table>
-	<div id="button">
-		<a href="register.html"> click here to register </a>
+	<div id="addRow">
+		<p>put your name right here</p>
+		<div>
+			<p>name</p>
+			<input id="name">
+		</div>
+		<button type="button" onclick="AddSrow(document.getElementById('name').value,'t')">Submit</button>
+		<p id="demo"></p>
 	</div>
 
 </body>
