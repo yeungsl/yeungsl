@@ -1,0 +1,43 @@
+body{
+	font-family:'Roboto', sans-serif;
+	font-weight:300;
+}
+
+.welcome {
+	font-weight:700;
+	margin:0;
+	text-align:center;
+	font-size: 2em;
+	color:white;
+	background-image: url("amber.jpg");
+	background-repeat: no-repeat;
+}
+
+.btn{
+
+	display: block;
+	background: #ffffff;
+	align-self: center;
+
+	color:gray;
+	text-align: center;
+	font: bold 1.5em/50px "Roboto", sans-serif;
+
+}
+
+a.btn{
+	text-decoration: none;
+}
+a.btn:hover {
+	color: #ffffff;
+  	background-color: #fbd1d5;
+}
+
+div.botton{
+	text-align: center;
+	align-content: center;
+}
+
+p{
+	font-size: 1.5em;
+}
